@@ -118,7 +118,7 @@ local function run()
     print(cjson.encode(result_obj))
 end
 
-local ok, err = xpcall(run, debug.traceback)
+local ok, err = pcall(run)
 if not ok then
     print("[bilibili_up_fans] ERROR: " .. tostring(err))
     error(err)

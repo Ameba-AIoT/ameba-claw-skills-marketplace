@@ -2,7 +2,7 @@
   "name": "bilibili_up_fans",
   "description": "查询 Bilibili UP 主的粉丝数。默认查询 Realtek Ameba 官方账号。",
   "author": "leann_wang",
-  "last_modified": 1784888399000,
+  "last_modified": 1785117171000,
   "metadata": {
     "cap_groups": [
       "cap_lua",

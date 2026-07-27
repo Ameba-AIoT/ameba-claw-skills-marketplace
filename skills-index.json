@@ -2,9 +2,9 @@
   {
     "id": "bilibili_up_fans",
     "name": "bilibili_up_fans",
-    "description": "查询 Bilibili UP 主的粉丝数。默认查询 Realtek Ameba 官方账号。",
-    "author": "leann_wang",
-    "last_modified": 1784888343405,
+    "description": "Query a Bilibili UP creator's fan count. Defaults to the Realtek Ameba official account.",
+    "author": "Ameba-Claw contributor",
+    "last_modified": 1785143789000,
     "metadata": {
       "category": [
         "network"

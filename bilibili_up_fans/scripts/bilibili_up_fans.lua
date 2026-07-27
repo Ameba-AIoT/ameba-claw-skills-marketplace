@@ -24,7 +24,7 @@ function run(args)
 
     local timeout_ms = DEFAULT_TIMEOUT_MS
     if type(a.timeout_ms) == "number" then
-        timeout_ms = math.max(1, math.min(120000, math.floor(a.timeout_ms)))
+        timeout_ms = math.max(1000, math.min(120000, math.floor(a.timeout_ms)))
     end
 
     local mid

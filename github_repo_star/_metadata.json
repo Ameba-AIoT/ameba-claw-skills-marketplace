@@ -1,0 +1,20 @@
+{
+  "name": "github_repo_star",
+  "description": "Query a GitHub public repository's star count, fork count, and watcher count.",
+  "author": "",
+  "last_modified": 1785318198000,
+  "metadata": {
+    "cap_groups": [],
+    "manage_mode": "runtime",
+    "category": "network",
+    "tags": [],
+    "peripherals": []
+  },
+  "extra_files": {
+    "references": [],
+    "scripts": [
+      "main.lua"
+    ],
+    "assets": []
+  }
+}

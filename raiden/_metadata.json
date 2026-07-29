@@ -1,0 +1,32 @@
+{
+  "name": "raiden",
+  "description": "A Raiden-style vertical shoot-em-up with parallax starfield, four enemy types, and touch-drag controls.",
+  "author": "Ameba-Claw contributor",
+  "last_modified": 1785309135000,
+  "metadata": {
+    "cap_groups": [
+      "cap_lua"
+    ],
+    "manage_mode": "standalone",
+    "category": [
+      "game"
+    ],
+    "tags": [
+      "game",
+      "shooter",
+      "raiden",
+      "touch",
+      "lcd"
+    ],
+    "peripherals": [
+      "display"
+    ]
+  },
+  "extra_files": {
+    "references": [],
+    "scripts": [
+      "raiden.lua"
+    ],
+    "assets": []
+  }
+}

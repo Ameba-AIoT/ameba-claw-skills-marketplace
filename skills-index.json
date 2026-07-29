@@ -1,25 +1,140 @@
 [
   {
-    "id": "bilibili_up_fans",
-    "name": "bilibili_up_fans",
-    "description": "Query a Bilibili UP creator's fan count. Defaults to the Realtek Ameba official account.",
+    "id": "current_weather",
+    "name": "current_weather",
+    "description": "Query current weather conditions and today's high/low temperature for any city using HTTP APIs. Accepts city name as input.",
+    "author": "",
+    "last_modified": 1785309135000,
+    "metadata": {
+      "category": "network",
+      "tags": [],
+      "peripherals": []
+    },
+    "extra_files": {
+      "references": [],
+      "scripts": [],
+      "assets": []
+    }
+  },
+  {
+    "id": "game2048",
+    "name": "game2048",
+    "description": "Ready-to-run 2048 sliding-tile puzzle game — activate this skill to launch it immediately (do not write your own script).",
     "author": "Ameba-Claw contributor",
-    "last_modified": 1785143789000,
+    "last_modified": 1785309135000,
     "metadata": {
       "category": [
-        "network"
+        "game"
       ],
       "tags": [
-        "bilibili",
-        "fans",
-        "info"
+        "game",
+        "2048",
+        "puzzle",
+        "touch",
+        "lcd"
       ],
+      "peripherals": [
+        "display"
+      ]
+    },
+    "extra_files": {
+      "references": [],
+      "scripts": [
+        "game2048.lua"
+      ],
+      "assets": []
+    }
+  },
+  {
+    "id": "github_repo_star",
+    "name": "github_repo_star",
+    "description": "Query a GitHub public repository's star count, fork count, and watcher count.",
+    "author": "",
+    "last_modified": 1785318198000,
+    "metadata": {
+      "category": "network",
+      "tags": [],
       "peripherals": []
     },
     "extra_files": {
       "references": [],
       "scripts": [
-        "bilibili_up_fans.lua"
+        "main.lua"
+      ],
+      "assets": []
+    }
+  },
+  {
+    "id": "public_ip_info",
+    "name": "public_ip_info",
+    "description": "Query the device's public IP address, city, and ISP via the ip-api.com geolocation API. No authentication required.",
+    "author": "",
+    "last_modified": 1785318198000,
+    "metadata": {
+      "category": "network",
+      "tags": [],
+      "peripherals": []
+    },
+    "extra_files": {
+      "references": [],
+      "scripts": [],
+      "assets": []
+    }
+  },
+  {
+    "id": "raiden",
+    "name": "raiden",
+    "description": "A Raiden-style vertical shoot-em-up with parallax starfield, four enemy types, and touch-drag controls.",
+    "author": "Ameba-Claw contributor",
+    "last_modified": 1785309135000,
+    "metadata": {
+      "category": [
+        "game"
+      ],
+      "tags": [
+        "game",
+        "shooter",
+        "raiden",
+        "touch",
+        "lcd"
+      ],
+      "peripherals": [
+        "display"
+      ]
+    },
+    "extra_files": {
+      "references": [],
+      "scripts": [
+        "raiden.lua"
+      ],
+      "assets": []
+    }
+  },
+  {
+    "id": "ws2812_led_strip",
+    "name": "ws2812_led_strip",
+    "description": "Drive a WS2812/WS2812B addressable RGB LED strip via SPI DMA. Supports per-pixel and full-strip colour control.",
+    "author": "Ameba-Claw contributor",
+    "last_modified": 1785318198000,
+    "metadata": {
+      "category": [
+        "control"
+      ],
+      "tags": [
+        "led",
+        "ws2812",
+        "rgb",
+        "spi",
+        "strip"
+      ],
+      "peripherals": [
+        "spi"
+      ]
+    },
+    "extra_files": {
+      "references": [],
+      "scripts": [
+        "main.lua"
       ],
       "assets": []
     }

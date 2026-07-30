@@ -39,10 +39,10 @@ Run with defaults (config from board.json):
 
 No `led_strip` entry in board.json — supply all parameters explicitly:
 ```json
-{"path": "{CUR_SKILL_DIR}/scripts/main.lua", "args": {"spi_idx": 0, "pin": "PA_8", "count": 15, "pinmux": "dedicated"}}
+{"path": "{CUR_SKILL_DIR}/scripts/main.lua", "args": {"spi_idx": 0, "pin": "PA_8", "count": 15, "pinmux": "full"}}
 ```
 
-`spi_idx`, `pin`, and `count` are required; `pinmux` is optional. They are read from
+`spi_idx`, `pin`, and `count` are required; `pinmux` is optional, default is dedicate. They are read from
 board.json first; any missing field must be passed explicitly via `spi_idx`, `pin`, or `count`.
 
 ## Runtime behavior

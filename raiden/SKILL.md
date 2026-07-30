@@ -1,7 +1,7 @@
 ---
 {
   "name": "raiden",
-  "description": "A Raiden-style vertical shoot-em-up with parallax starfield, four enemy types, and touch-drag controls.",
+  "description": "A Raiden-style vertical shoot-em-up with parallax starfield, twin auto-fire, and touch-drag controls.",
   "author": "Ameba-Claw contributor",
   "featured": true,
   "metadata": {
@@ -9,7 +9,7 @@
     "tags": ["game", "shooter", "raiden", "touch", "lcd"],
     "cap_groups": ["cap_lua"],
     "manage_mode": "standalone",
-    "peripherals": ["display"]
+    "peripherals": ["display_lcdc_rgb_st7701p", "touch_i2c_gt911_st7701p"]
   }
 }
 ---
@@ -18,7 +18,7 @@
 
 Use this skill when the user asks to play a shooter game, Raiden, a shoot-em-up, or wants an action arcade game on the board.
 
-The Lua script runs a vertical-scrolling space shooter on the LCD. The player's ship auto-fires upward; drag your finger to fly. Survive waves of four distinct enemy types with varied bullet patterns. Score increases with each enemy destroyed; the game ends when the ship's HP reaches zero.
+The Lua script runs a vertical-scrolling space shooter on the LCD. The player's ship auto-fires twin bullets upward; drag your finger to fly. Survive endless enemy waves — score increases with each kill; the game ends when HP reaches zero.
 
 ## Requirements
 
@@ -37,12 +37,11 @@ The script hard-codes `W, H = 480, 480` and calls `d.init("display_lcdc_rgb_st77
 
 ## Features
 
-- Parallax space background: twinkling stars, scrolling perspective grid, 5 animated celestial bodies (moon, Mars, ringed planet, etc.)
-- Four enemy types with distinct art and bullet patterns (straight, aimed, spread)
-- Particle explosion effects on enemy/ship destruction
-- Batched draw calls (`d.fill_circles`, `d.draw_points`) for smooth 480×480 rendering
-- High score displayed on game-over screen (in-memory per session)
-- Touch-drag ship movement; tap to start/restart
+- Parallax starfield with multiple animated celestial bodies
+- Twin auto-fire: dual bullets launch from both sides of the ship every ~170 ms
+- 3-circle HP indicator in the HUD (top-right); smooth lerp ship movement follows the finger
+- High score shown on the game-over screen
+- Touch-drag to move the ship; tap to start / restart
 
 ## Tool Call
 

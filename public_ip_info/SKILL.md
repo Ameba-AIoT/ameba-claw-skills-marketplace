@@ -1,10 +1,27 @@
 ---
-name: public_ip_info
-description: "Query the device's public IP address, city, and ISP via the ip-api.com geolocation API. No authentication required."
-compatibility: RTL8721F
-metadata:
-  manage_mode: runtime
-  category: network
+{
+  "name": "public_ip_info",
+  "description": "Query the device's public IP address, city, and ISP via the ip-api.com geolocation API. No authentication required.",
+  "author": "Ameba-Claw contributor",
+  "metadata": {
+    "cap_groups": [
+      "cap_lua",
+      "cap_http_request"
+    ],
+    "manage_mode": "runtime",
+    "category": [
+      "network"
+    ],
+    "tags": [
+      "network",
+      "ip",
+      "geolocation",
+      "http",
+      "info"
+    ],
+    "peripherals": []
+  }
+}
 ---
 # public_ip_info
 

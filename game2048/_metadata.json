@@ -2,7 +2,7 @@
   "name": "game2048",
   "description": "Ready-to-run 2048 sliding-tile puzzle game — activate this skill to launch it immediately (do not write your own script).",
   "author": "Ameba-Claw contributor",
-  "last_modified": 1785309135000,
+  "last_modified": 1785400879000,
   "metadata": {
     "cap_groups": [
       "cap_lua"
@@ -19,7 +19,8 @@
       "lcd"
     ],
     "peripherals": [
-      "display"
+      "display_lcdc_rgb_st7701p",
+      "touch_i2c_gt911_st7701p"
     ]
   },
   "extra_files": {

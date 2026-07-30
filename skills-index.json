@@ -3,11 +3,19 @@
     "id": "current_weather",
     "name": "current_weather",
     "description": "Query current weather conditions and today's high/low temperature for any city using HTTP APIs. Accepts city name as input.",
-    "author": "",
-    "last_modified": 1785309135000,
+    "author": "Ameba-Claw contributor",
+    "last_modified": 1785400879000,
     "metadata": {
-      "category": "network",
-      "tags": [],
+      "category": [
+        "network"
+      ],
+      "tags": [
+        "weather",
+        "temperature",
+        "city",
+        "http",
+        "info"
+      ],
       "peripherals": []
     },
     "extra_files": {
@@ -21,7 +29,7 @@
     "name": "game2048",
     "description": "Ready-to-run 2048 sliding-tile puzzle game — activate this skill to launch it immediately (do not write your own script).",
     "author": "Ameba-Claw contributor",
-    "last_modified": 1785309135000,
+    "last_modified": 1785400879000,
     "metadata": {
       "category": [
         "game"
@@ -34,7 +42,8 @@
         "lcd"
       ],
       "peripherals": [
-        "display"
+        "display_lcdc_rgb_st7701p",
+        "touch_i2c_gt911_st7701p"
       ]
     },
     "extra_files": {
@@ -49,11 +58,18 @@
     "id": "github_repo_star",
     "name": "github_repo_star",
     "description": "Query a GitHub public repository's star count, fork count, and watcher count.",
-    "author": "",
-    "last_modified": 1785318198000,
+    "author": "Ameba-Claw contributor",
+    "last_modified": 1785400879000,
     "metadata": {
-      "category": "network",
-      "tags": [],
+      "category": [
+        "network"
+      ],
+      "tags": [
+        "network",
+        "github",
+        "http",
+        "info"
+      ],
       "peripherals": []
     },
     "extra_files": {
@@ -68,11 +84,19 @@
     "id": "public_ip_info",
     "name": "public_ip_info",
     "description": "Query the device's public IP address, city, and ISP via the ip-api.com geolocation API. No authentication required.",
-    "author": "",
-    "last_modified": 1785318198000,
+    "author": "Ameba-Claw contributor",
+    "last_modified": 1785400879000,
     "metadata": {
-      "category": "network",
-      "tags": [],
+      "category": [
+        "network"
+      ],
+      "tags": [
+        "network",
+        "ip",
+        "geolocation",
+        "http",
+        "info"
+      ],
       "peripherals": []
     },
     "extra_files": {
@@ -84,9 +108,9 @@
   {
     "id": "raiden",
     "name": "raiden",
-    "description": "A Raiden-style vertical shoot-em-up with parallax starfield, four enemy types, and touch-drag controls.",
+    "description": "A Raiden-style vertical shoot-em-up with parallax starfield, twin auto-fire, and touch-drag controls.",
     "author": "Ameba-Claw contributor",
-    "last_modified": 1785309135000,
+    "last_modified": 1785400879000,
     "metadata": {
       "category": [
         "game"
@@ -99,7 +123,8 @@
         "lcd"
       ],
       "peripherals": [
-        "display"
+        "display_lcdc_rgb_st7701p",
+        "touch_i2c_gt911_st7701p"
       ]
     },
     "extra_files": {
@@ -115,7 +140,7 @@
     "name": "ws2812_led_strip",
     "description": "Drive a WS2812/WS2812B addressable RGB LED strip via SPI DMA. Supports per-pixel and full-strip colour control.",
     "author": "Ameba-Claw contributor",
-    "last_modified": 1785318198000,
+    "last_modified": 1785400879000,
     "metadata": {
       "category": [
         "control"

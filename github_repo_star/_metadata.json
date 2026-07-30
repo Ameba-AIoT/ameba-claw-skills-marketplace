@@ -1,13 +1,23 @@
 {
   "name": "github_repo_star",
   "description": "Query a GitHub public repository's star count, fork count, and watcher count.",
-  "author": "",
-  "last_modified": 1785318198000,
+  "author": "Ameba-Claw contributor",
+  "last_modified": 1785400879000,
   "metadata": {
-    "cap_groups": [],
+    "cap_groups": [
+      "cap_lua",
+      "cap_http_request"
+    ],
     "manage_mode": "runtime",
-    "category": "network",
-    "tags": [],
+    "category": [
+      "network"
+    ],
+    "tags": [
+      "network",
+      "github",
+      "http",
+      "info"
+    ],
     "peripherals": []
   },
   "extra_files": {

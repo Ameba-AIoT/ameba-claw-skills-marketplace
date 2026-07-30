@@ -1,10 +1,27 @@
 ---
-name: current_weather
-description: "Query current weather conditions and today's high/low temperature for any city using HTTP APIs. Accepts city name as input."
-compatibility: RTL8721F
-metadata:
-  manage_mode: runtime
-  category: network
+{
+  "name": "current_weather",
+  "description": "Query current weather conditions and today's high/low temperature for any city using HTTP APIs. Accepts city name as input.",
+  "author": "Ameba-Claw contributor",
+  "metadata": {
+    "cap_groups": [
+      "cap_lua",
+      "cap_http_request"
+    ],
+    "manage_mode": "runtime",
+    "category": [
+      "network"
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "city",
+      "http",
+      "info"
+    ],
+    "peripherals": []
+  }
+}
 ---
 # current_weather
 

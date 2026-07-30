@@ -9,7 +9,7 @@
     "tags": ["game", "2048", "puzzle", "touch", "lcd"],
     "cap_groups": ["cap_lua"],
     "manage_mode": "standalone",
-    "peripherals": ["display"]
+    "peripherals": ["display_lcdc_rgb_st7701p", "touch_i2c_gt911_st7701p"]
   }
 }
 ---

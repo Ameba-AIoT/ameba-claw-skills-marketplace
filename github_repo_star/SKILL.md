@@ -1,10 +1,26 @@
 ---
-name: github_repo_star
-description: "Query a GitHub public repository's star count, fork count, and watcher count."
-compatibility: RTL8721F
-metadata:
-  manage_mode: runtime
-  category: network
+{
+  "name": "github_repo_star",
+  "description": "Query a GitHub public repository's star count, fork count, and watcher count.",
+  "author": "Ameba-Claw contributor",
+  "metadata": {
+    "cap_groups": [
+      "cap_lua",
+      "cap_http_request"
+    ],
+    "manage_mode": "runtime",
+    "category": [
+      "network"
+    ],
+    "tags": [
+      "network",
+      "github",
+      "http",
+      "info"
+    ],
+    "peripherals": []
+  }
+}
 ---
 # github_repo_star
 

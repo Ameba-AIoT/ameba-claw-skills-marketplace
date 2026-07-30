@@ -1,13 +1,24 @@
 {
   "name": "public_ip_info",
   "description": "Query the device's public IP address, city, and ISP via the ip-api.com geolocation API. No authentication required.",
-  "author": "",
-  "last_modified": 1785318198000,
+  "author": "Ameba-Claw contributor",
+  "last_modified": 1785400879000,
   "metadata": {
-    "cap_groups": [],
+    "cap_groups": [
+      "cap_lua",
+      "cap_http_request"
+    ],
     "manage_mode": "runtime",
-    "category": "network",
-    "tags": [],
+    "category": [
+      "network"
+    ],
+    "tags": [
+      "network",
+      "ip",
+      "geolocation",
+      "http",
+      "info"
+    ],
     "peripherals": []
   },
   "extra_files": {

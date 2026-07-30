@@ -2,7 +2,7 @@
   "name": "ws2812_led_strip",
   "description": "Drive a WS2812/WS2812B addressable RGB LED strip via SPI DMA. Supports per-pixel and full-strip colour control.",
   "author": "Ameba-Claw contributor",
-  "last_modified": 1785318198000,
+  "last_modified": 1785400879000,
   "metadata": {
     "cap_groups": [
       "cap_lua"

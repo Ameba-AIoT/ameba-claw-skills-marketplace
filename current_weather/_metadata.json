@@ -1,13 +1,24 @@
 {
   "name": "current_weather",
   "description": "Query current weather conditions and today's high/low temperature for any city using HTTP APIs. Accepts city name as input.",
-  "author": "",
-  "last_modified": 1785309135000,
+  "author": "Ameba-Claw contributor",
+  "last_modified": 1785400879000,
   "metadata": {
-    "cap_groups": [],
+    "cap_groups": [
+      "cap_lua",
+      "cap_http_request"
+    ],
     "manage_mode": "runtime",
-    "category": "network",
-    "tags": [],
+    "category": [
+      "network"
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "city",
+      "http",
+      "info"
+    ],
     "peripherals": []
   },
   "extra_files": {
